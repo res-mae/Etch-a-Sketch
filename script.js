@@ -5,7 +5,7 @@ const grid = document.querySelector(".grid");
 const input = document.querySelector("#size-input");
 const resizeButton = document.querySelector(".resize-button");
 
-// resize the grid layout
+// resize the grid 
 resizeButton.addEventListener("click", () => {
     gridSize = input.value;
 
