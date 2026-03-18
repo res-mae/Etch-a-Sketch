@@ -17,12 +17,16 @@ body {
 }
 
 .square {
-    box-shadow: 0 0 0 0.25px gray;
+    border: 0.25px solid rgb(204, 204, 204);
     box-sizing: border-box;
 }
 
 .resize {
     display: flex;
-    align-items: center;
+}
+
+.option {
+    display: flex;
+    gap: 20px;
     padding: 10px 20px;
 }
